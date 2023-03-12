@@ -1,0 +1,236 @@
+.App{
+  display: flex;
+}
+
+.leftsidebar{
+  width: 25%;
+  padding-top: 80px;
+}
+
+.leftsidebar h3{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  font-weight: 400;
+}
+
+.leftsidebar i{
+  font-size: 30px;
+  line-height: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.home, .trendsNav, .feed, .new,.release,.event{
+  line-height: 40px;
+  margin: 5px 15px 10px 15px;
+  padding-left: 15px;
+  color:rgb(121,120,123);
+}
+
+.leftsidebar p{
+  margin-left: 30px;
+}
+
+.home:hover, .trendsNav:hover, .feed:hover,
+.new:hover,.release:hover,.event:hover{
+  background-color: rgb(21,17,30);
+  color: white;
+  transition: 600ms;
+  border-radius: 20px;
+}
+
+/************* MAIN SECTION*******************/
+.main{
+  background-color: rgb(244,245,254);
+  padding: 25px;
+  width: 50%;
+}
+
+nav{
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.arrows{
+  margin-right: 60px;
+  line-height: 40px;
+}
+
+.ri-arrow-right-line{
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 30px;
+}
+
+.ri-arrow-left-line{
+  font-size: 30px;
+}
+
+input{
+  height: 40px;
+  width: 220%;
+  border-radius: 40px;
+  border: 0.5px solid transparent;
+  padding-left: 15px;
+}
+
+.trends{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 0;
+}
+
+.trending h2{
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.more{
+  line-height: 20px;
+}
+
+.moreh{
+  display: inline-block;
+}
+
+.more h5{
+  display: inline-block;
+  margin: 0px 0 0 0;
+}
+
+.moreArrow{
+  display: inline-block;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.more i{
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.topArtiste{
+  background-image: url(./components/images/card.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+.bottomCard{
+  display: flex;
+  justify-content: space-between;
+}
+
+.playFollow{
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding-top: 50px;
+  padding-top: 0;
+}
+
+.monthly h5{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.monthly p{
+  font-size: 25px;
+  margin-top: 0;
+}
+
+a, button{
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 45px;
+  text-decoration: none;
+  border-radius: 23px;
+  line-height: 45px;
+  border: none;
+}
+
+.play{
+  background-color: rgb(21,17,30);
+  color: white;
+}
+
+.play:hover{
+  background-color: rgb(255, 255, 255);
+  transition: 300ms;
+  color: black;
+}
+
+.follow{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 140px;
+  height: 43px;
+  border: 0.5px solid black;
+}
+
+.follow:hover{
+  background-color: rgb(21,17,30);
+  transition: 300ms;
+  color: white;
+}
+
+.playlistContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+table{
+  width: 100%;
+}
+
+th{
+  text-align: start;
+}
+
+
+/****RIGHTBAR SIDE****************/
+
+.rightsidebar{
+  width: 25%;
+  background-color: rgb(244,245,254);
+  padding-right: 30px;
+}
+
+.custom{
+  display: inline-block;
+  text-align: center;
+  width: 130px;
+  height: 45px;
+  text-decoration: none;
+  border-radius: 23px;
+  line-height: 45px;
+  border: none;
+  background-color: rgb(255,255,255);
+  color: black;
+  font-weight: 500;
+}
+
+.rightsidebar h2{
+  font-size: 30px;
+}
+
+.rightsidebar h5,.rightsidebar p{
+  margin: 0;
+}
+
+.moreFav i{
+  vertical-align: middle;
+}
+
+.favItem{
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,4 +1,4 @@
-function Sidebar(){
+function LeftSidebar(){
     return (
         <div className="leftsidebar">
             <div className="leftsidebar-content">

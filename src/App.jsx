@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import React from'react';
 import RightSidebar from "./components/RightSidebar";
-import Sidebar from "./components/Sidebar"
+import LeftSidebar from "./components/LeftSidebar"
 import Main from "./components/Main"
 
 

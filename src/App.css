@@ -199,7 +199,7 @@ th{
 /****RIGHTBAR SIDE****************/
 
 .rightsidebar{
-  width: 25%;
+  /* width: 25%; */
   background-color: rgb(244,245,254);
   padding-right: 30px;
 }

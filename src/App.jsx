@@ -12,7 +12,7 @@ function App() {
       <div className="App">
         <LeftSidebar />
         <Main />
-        <RightSidebar />
+        {/* <RightSidebar /> */}
   
         <header className="App-header">
         </header>

@@ -1,23 +1,20 @@
-import { useState } from 'react'
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import React from'react';
-import RightSidebar from "./components/RightSidebar";
-import LeftSidebar from "./components/LeftSidebar"
-import Main from "./components/Main"
-
+import Home from './pages/Home'
+import Music from './pages/Music'
 
 function App() {
-    return (
-      <div className="App">
-        <LeftSidebar />
-        <Main />
-        <RightSidebar />
-  
-        <header className="App-header">
-        </header>
-      </div>
-    );
-  }
 
-export default App;
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/musics' element={<Music />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
+  )
+}
+
+export default App

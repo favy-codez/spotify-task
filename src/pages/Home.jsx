@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div>
             <header className="App-header">
-                <h1>My Spotify App</h1>
+                <h1 className='welcome-text'>Bee music</h1>
                 <Link to={`${AUTH_ENDPOINT}?client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=${RESPONSE_TYPE}`}>Login to spotify</Link>
                 {/* <button onClick={getToken}>Login to spotify</button> */}
             </header>

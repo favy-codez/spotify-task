@@ -53,20 +53,37 @@
   border-radius: 40px;
 }
 
-
-/* .styled-table tbody tr {
-  border-bottom: 1px solid #dddddd;
+.App-header{
+  width: 400px;
+  text-align: center;
+  margin: 12rem auto;
+  background-color: #15111e;
+  color: #fff;
+  border-radius: 20px;
+  padding: 1rem 0;
 }
 
-.styled-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
+.App-header a{
+  /* text-decoration: none; */
+  color: #999393;
 }
 
-.styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
+.App-header a:hover{
+  color: #797979;
 }
 
-.styled-table tbody tr.active-row {
-  font-weight: bold;
-  color: #009879;
-} */
+.welcome-text{
+  text-align: center;
+}
+
+.text1{
+  margin: 3rem 0 1rem 0;
+}
+
+.text-yellow-400{
+  color: #fcbc67;
+}
+
+span .m{
+  font-size: 1rem;
+}
